@@ -147,4 +147,3 @@ def get_cars(request):
             "CarMake": car_model.car_make.name
         })
     return JsonResponse({"CarModels": cars})
-    
